@@ -15,9 +15,13 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.facebook.HttpMethod;
+import com.facebook.Request;
+import com.facebook.Response;
 import com.facebook.Session;
 import com.facebook.SessionState;
 import com.facebook.UiLifecycleHelper;
+import com.facebook.model.GraphUser;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -31,6 +35,10 @@ public class MainActivity extends FragmentActivity {
     private static final int FRAGMENT_COUNT = SETTINGS +1;
     private MenuItem settings;
     Preferences p;
+    private String[] friendsName;
+    private String[] friendsId;
+    private String myFacebookId;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -197,12 +205,47 @@ public class MainActivity extends FragmentActivity {
         if (session != null && session.isOpened()) {
             // if the session is already open,
             // try to show the selection fragment
+            getMeUserId(session);
+            getFriends(session);
             showFragment(SELECTION, false);
         } else {
             // otherwise present the splash screen
             // and ask the person to login.
             showFragment(SPLASH, false);
         }
+    }
+
+    private void getFriends(final Session session) {
+        Request req = new Request(session, "/me/friends?fields=id,name,installed,picture&access_token="+session.getAccessToken(),null, HttpMethod.GET,
+                new Request.Callback() {
+
+                    @Override
+                    public void onCompleted(Response response) {
+                        Log.d("Friends", response.toString());
+                    }
+                });
+        Request.executeBatchAsync(req);
+    }
+
+    private void getMeUserId(final Session session) {
+        Request request = Request.newMeRequest(session,
+                new Request.GraphUserCallback() {
+
+                    @Override
+                    public void onCompleted(GraphUser user, Response response) {
+                        // If the response is successful
+                        if (session == Session.getActiveSession()) {
+                            if (user != null) {
+                                myFacebookId = user.getId();
+                                Log.d("My User ID", myFacebookId);
+                            }
+                        }
+                        if (response.getError() != null) {
+                            // Handle error
+                        }
+                    }
+                });
+        request.executeAsync();
     }
 
     private UiLifecycleHelper uiHelper;

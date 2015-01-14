@@ -16,11 +16,25 @@
         <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\activation-6c0b657cc9cc2015311c0f6460da1b06976058f0.jar" />
     </item>
     <item
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d952e0181215cfc208befbd31cf11a25ecf8bf9d.jar" />
+    </item>
+    <item
         jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\classes-3f251a296d3b446e16ce9f0568c468325604cc7d.jar" />
+    </item>
+    <item
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\libs\additionnal.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\additionnal-2d64492cdecf32a77bf879ce23a748dc85f89e31.jar" />
     </item>
     <item
         jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
@@ -30,6 +44,13 @@
         <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\classes-8253ccdaace75de80c5743426c430c3d1c5072b3.jar" />
     </item>
     <item
+        jar="C:\Users\rfrosch\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-61939113e68a7e9317fd1ae74cf329b910b37165.jar" />
+    </item>
+    <item
         jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\libs\mail.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -37,11 +58,18 @@
         <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\mail-a8bf31a7f21f7cab53daea39890334b9c8a011d1.jar" />
     </item>
     <item
-        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.facebook.android\facebook\3.22.0\classes.jar"
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="7cbbcc920be2be68a8a283f3717fce0abc7d477a">
-        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\classes-32f8c4f4d89d239ace214319037b41e1e4500fda.jar" />
+        revision="21.1.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\classes-3f251a296d3b446e16ce9f0568c468325604cc7d.jar" />
+    </item>
+    <item
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\libs\activation.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\activation-6c0b657cc9cc2015311c0f6460da1b06976058f0.jar" />
     </item>
     <item
         jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\libs\additionnal.jar"
@@ -51,18 +79,60 @@
         <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\additionnal-2d64492cdecf32a77bf879ce23a748dc85f89e31.jar" />
     </item>
     <item
-        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d952e0181215cfc208befbd31cf11a25ecf8bf9d.jar" />
-    </item>
-    <item
         jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\libs\backgroundmaillibrary.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="43dfc5a1beb1685acbc1e657df65dc1e1decb79b">
         <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\backgroundmaillibrary-cf87d04162fc09ca143bad92e6653f526c20e5a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\libs\backgroundmaillibrary.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="43dfc5a1beb1685acbc1e657df65dc1e1decb79b">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\backgroundmaillibrary-cf87d04162fc09ca143bad92e6653f526c20e5a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\rfrosch\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-19953a7874f6f82d4e18a61f2156025dddcc2bc5.jar" />
+    </item>
+    <item
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.facebook.android\facebook\3.22.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4ff3863923169b5e91a9e22dc32b329dfa0fa1ff">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\classes-32f8c4f4d89d239ace214319037b41e1e4500fda.jar" />
+    </item>
+    <item
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.facebook.android\facebook\3.22.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7cbbcc920be2be68a8a283f3717fce0abc7d477a">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\classes-32f8c4f4d89d239ace214319037b41e1e4500fda.jar" />
+    </item>
+    <item
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\classes-8253ccdaace75de80c5743426c430c3d1c5072b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\libs\mail.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\mail-a8bf31a7f21f7cab53daea39890334b9c8a011d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\rfrosch\AndroidStudioProjects\MobileTrackerCommunity\mobilecommunitytracker\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d952e0181215cfc208befbd31cf11a25ecf8bf9d.jar" />
     </item>
     <item
         jar="C:\Users\rfrosch\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"

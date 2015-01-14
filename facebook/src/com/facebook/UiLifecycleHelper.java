@@ -24,10 +24,10 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
+
 import com.facebook.internal.LikeActionController;
 import com.facebook.internal.NativeProtocol;
 import com.facebook.internal.PendingCallStore;
-import com.facebook.internal.Utility;
 import com.facebook.widget.FacebookDialog;
 
 import java.util.UUID;
@@ -119,6 +119,7 @@ public class UiLifecycleHelper {
             if (SessionState.CREATED_TOKEN_LOADED.equals(session.getState())) {
                 session.openForRead(null);
             }
+
         }
 
         // add the broadcast receiver
@@ -130,6 +131,7 @@ public class UiLifecycleHelper {
         // is set or unset, and add/remove our callback as appropriate
         broadcastManager.registerReceiver(receiver, filter);
     }
+
 
     /**
      * To be called from an Activity or Fragment's onActivityResult method.
