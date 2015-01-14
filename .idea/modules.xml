@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MobileTrackerCommunity.iml" filepath="$PROJECT_DIR$/MobileTrackerCommunity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobilecommunitytracker/mobilecommunitytracker.iml" filepath="$PROJECT_DIR$/mobilecommunitytracker/mobilecommunitytracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook/tests/tests.iml" filepath="$PROJECT_DIR$/facebook/tests/tests.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,12 @@
+// Facebook SDK
+include ':facebook', ':mobilecommunitytracker'
+
+// Tests
+include 'tests'
+project(':tests').projectDir = new File('facebook/tests')
+
+
+if (file('internal/internal-settings.gradle').exists()) {
+  apply from: 'internal/internal-settings.gradle'
+}
+

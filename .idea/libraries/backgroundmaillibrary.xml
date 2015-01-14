@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="backgroundmaillibrary">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mobilecommunitytracker/libs/backgroundmaillibrary.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
