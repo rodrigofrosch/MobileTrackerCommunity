@@ -8,5 +8,6 @@
     <string name="get_started">To get started, log in using Facebook</string>
     <string name="title_facebook_login">Facebook Login</string>
     <string name="settings">Settings</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
 
 </resources>
